@@ -10,6 +10,7 @@ a, .btn-link {
     color: #fff;
     background-color: #1b6ec2;
     border-color: #1861ac;
+    margin-top: 16px;
 }
 
 .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
@@ -57,4 +58,16 @@ h1:focus {
 
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
     text-align: start;
+}
+
+p {
+    margin-top: 16px;
+    margin-bottom: 0;
+}
+
+.resizable-textarea {
+    width: 60%;
+    height: 200px;
+    resize: vertical; 
+    overflow: auto;
 }

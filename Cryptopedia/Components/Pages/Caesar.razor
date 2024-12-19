@@ -16,7 +16,7 @@
 <p>Encrypted text</p>
 <textarea readonly class="resizable-textarea">@_encryptedText</textarea>
 <br/>
-<button class="btn btn-secondary" @onclick="CopyToClipboard">Copy to clipboard</button>
+<button class="btn btn-secondary" style="margin-bottom: 18px" @onclick="CopyToClipboard">Copy to clipboard</button>
 
 @code {
     private string _userText = string.Empty;
